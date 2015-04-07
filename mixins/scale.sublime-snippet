@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+@include scale(${1:below 0 to shrink, 1+ to grow});
+]]>
+	</content>
+	<tabTrigger>scale</tabTrigger>
+	<description>Scale</description>
+</snippet>

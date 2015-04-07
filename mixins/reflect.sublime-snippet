@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+@include reflect(${1:length (in %)}, ${2:opacity (between 0 and 1)});
+]]>
+	</content>
+	<tabTrigger>reflect</tabTrigger>
+	<description>Reflect</description>
+</snippet>

@@ -1,0 +1,53 @@
+// brand variables
+
+// Fonts
+$font-title: dense2;
+$font-text: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-mono: "Courier New", Courier, monospace;
+$font-icon: FontAwesome;
+
+// Gap
+$gap-1: 10px;
+
+// Colors
+$color-0: violet;
+$color-1: green;
+$color-2: #666;
+$color-3: brown;
+$color-4: red;
+$color-5: blue;
+
+@import "base";
+@import "mixins";
+@import "colors";
+@import "visibility";
+@import "animate";
+@import "test_color";
+@import "test_media";
+@import "layout";
+@import "modules";
+@import "icons";
+
+a[data-toggle="collapse"] {
+  color: #333;
+  display: block;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+a.label {
+  @extend .label;
+  padding-bottom: 2px;
+  padding: 5px 15px 2px 15px !important;
+  color: #333;
+  border-bottom: dotted 1px #333;
+  &:hover {
+    color: #333;
+  }
+}
+
+.credits a {
+  padding: 5px !important;
+}
+

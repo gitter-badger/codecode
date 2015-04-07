@@ -1,0 +1,159 @@
+.media_strict, .media_loose {
+  margin: 0 !important;
+  padding: $gap-1;
+  heigth: 100%;
+  h3 {
+    bottom: 0;
+    position: fixed;
+  }
+  &:before, &:after {
+    display: block;
+    background-color: brown;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px;
+    z-index: 20000;
+    font-size: 12px;
+  }
+  &:after {
+    top: 25px;
+  }
+}
+.media_strict {
+  @include media(ipad, strict) {
+    &:before {
+      content: "ipad, strict";
+    }
+    @include orient(landscape) {
+      &:after {
+        content: "landscape";
+      }
+    }
+
+    @include orient(portrait) {
+      &:after {
+        content: "portrait";
+      }
+    }
+  }
+
+
+  @include media(iphone4, strict) {
+    &:before {
+      content: "iphone4, strict";
+    }
+    @include orient(landscape) {
+      &:after {
+        content: "landscape";
+      }
+    }
+
+    @include orient(portrait) {
+      &:after {
+        content: "portrait";
+      }
+    }
+  }
+
+  @include media(iphone5, strict) {
+    &:before {
+      content: "iphone5, strict";
+    }
+    @include orient(landscape) {
+      &:after {
+        content: "landscape";
+      }
+    }
+
+    @include orient(portrait) {
+      &:after {
+        content: "portrait";
+      }
+    }
+  }
+
+  @include media(iphone6, strict) {
+    &:before {
+      content: "iphone6, strict";
+    }
+    @include orient(landscape) {
+      &:after {
+        content: "landscape";
+      }
+    }
+
+    @include orient(portrait) {
+      &:after {
+        content: "portrait";
+      }
+    }
+  }
+
+  @include media(iphone6plus, strict) {
+    &:before {
+      content: "iphone6plus, strict";
+    }
+    @include orient(landscape) {
+      &:after {
+        content: "landscape";
+      }
+    }
+
+    @include orient(portrait) {
+      &:after {
+        content: "portrait";
+      }
+    }
+  }
+}
+
+
+.media_loose {
+  @include media(ipad, landscape) {
+    &:before {
+      content: "ipad, landscape";
+    }
+  }
+  @include media(ipad, portrait) {
+    &:before {
+      content: "ipad, portrait";
+    }
+  }
+  @include media(iphone6plus, landscape) {
+    &:before {
+      content: "iphone6plus, landscape";
+    }
+  }
+  @include media(iphone6, landscape) {
+    &:before {
+      content: "iphone6, landscape";
+    }
+  }
+  @include media(iphone5, landscape) {
+    &:before {
+      content: "iphone5, landscape";
+    }
+  }
+  @include media(iphone6, portrait) {
+    &:before {
+      content: "iphone6, portrait";
+    }
+  }
+  @include media(iphone4, landscape) {
+    &:before {
+      content: "iphone4, landscape";
+    }
+  }
+  @include media(iphone6plus, portrait) {
+    &:before {
+      content: "iphone6plus, portrait";
+    }
+  }
+  @include media(iphone5, landscape) {
+    &:before {
+      content: "iphone4 or 5, landscape";
+    }
+  }
+}

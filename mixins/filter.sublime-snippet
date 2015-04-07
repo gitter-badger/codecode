@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+    <![CDATA[
+    @include filter(${1:blur(px)|brightness(%)|contrast(%)|saturate(%)|grayscale(%)|hue-rotate(deg)|invert(%)|opacity(%)|sepia(%)}, ${2:%|px|deg});
+    ]]>
+  </content>
+  <tabTrigger>filter</tabTrigger>
+  <description>Filter</description>
+</snippet>

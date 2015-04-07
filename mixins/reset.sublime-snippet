@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+    <![CDATA[
+    @include reset(${1:all|margin|padding|border|bg|list});
+    ]]>
+  </content>
+  <tabTrigger>reset</tabTrigger>
+  <description>Reset</description>
+</snippet>

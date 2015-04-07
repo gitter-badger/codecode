@@ -1,0 +1,17 @@
+<snippet>
+  <content>
+<![CDATA[
+${3:/* set title and file (if file is same as title, set just the first)
+other options are:
+$weight,
+$style,
+$path: (defaults to '../fonts/'),
+$stretch,
+$transform
+ */
+}@include font-face(${1:font title}, '${2: font filename}');
+]]>
+  </content>
+  <tabTrigger>font-face</tabTrigger>
+  <description>Font-face mixin</description>
+</snippet>
