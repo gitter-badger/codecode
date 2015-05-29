@@ -1,0 +1,29 @@
+=disable($type: link)
+  @if $type == "select"
+    -moz-user-select: none
+    -webkit-user-select: none
+    -ms-user-select: none
+    user-select: none
+  @else if $type == "drag"
+    -webkit-user-drag: none
+    user-drag: none
+  @else if $type == "link"
+    pointer-events: none
+    cursor: default
+
+=placeholder($animate: true)
+  &.placeholder
+    @content
+  &::-webkit-input-placeholder
+    @content
+  &:-moz-placeholder
+    @content
+  &::-moz-placeholder
+    @content
+  &:-ms-input-placeholder
+    @content
+  @if $animate == "true"
+    &:focus::-webkit-input-placeholder
+      transition: all 0.5s 0.1s ease
+      text-indent: -50%
+      opacity: 0

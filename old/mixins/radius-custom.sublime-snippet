@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+@include radius-custom(${1:top}, ${2:right}, ${3:bottom}, ${4:left});
+]]>
+	</content>
+	<tabTrigger>radius</tabTrigger>
+	<description>Radius, custom</description>
+</snippet>

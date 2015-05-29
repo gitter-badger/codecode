@@ -1,0 +1,12 @@
+=filter($filter: blur, $value: 10px)
+  -webkit-filter: $filter + unquote("(#{$value})")
+  -moz-filter: $filter + unquote("(#{$value})")
+  -ms-filter: $filter + unquote("(#{$value})")
+  -o-filter: $filter + unquote("(#{$value})")
+  filter: $filter + unquote("(#{$value})")
+
+=cover
+  -webkit-background-size: cover !important
+  -moz-background-size: cover !important
+  -o-background-size: cover !important
+  background-size: cover !important

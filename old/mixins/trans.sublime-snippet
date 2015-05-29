@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+@include trans;
+]]>
+	</content>
+	<tabTrigger>transition</tabTrigger>
+	<description>Transition</description>
+</snippet>

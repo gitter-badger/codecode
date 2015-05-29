@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+<![CDATA[
+@include placeholder { 
+$1
+}
+]]>
+	</content>
+	<tabTrigger>placeholder</tabTrigger>
+	<description>Placeholder Animation</description>
+</snippet>

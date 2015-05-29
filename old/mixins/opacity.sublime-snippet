@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+@include opacity($1);
+]]>
+	</content>
+	<tabTrigger>opacity</tabTrigger>
+	<description>Opacity</description>
+</snippet>

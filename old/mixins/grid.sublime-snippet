@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+<![CDATA[
+@include grid(${1:number of columns}, ${2:gutter});
+]]>
+	</content>
+	<tabTrigger>grid</tabTrigger>
+	<description>Table Grid</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content>
+<![CDATA[
+@include only(${1:modernizr or detectizr rule}) {
+	$2
+}
+]]>
+  </content>
+  <tabTrigger>only</tabTrigger>
+  <description>Rules for browser or system listed</description>
+</snippet>
