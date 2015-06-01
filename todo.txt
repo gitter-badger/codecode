@@ -1,9 +1,0 @@
-organize objects into groups
-set installation
-set snippets
-write proper description
-move all SASS files to SASS folder
-duplicate SASS objects, as SCSS
-
-
-get animation stuff, both my mixins and the animate.css one
